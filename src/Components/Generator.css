@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+/* V index.css: body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #e5e5e5;
+} */
+
+/* celá sekce formulaře */
+.form-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+/* h1 */
+.form-section h1 {
+    margin-top: 0px;
+    padding-top: 50px;
+   
+}
+
+/* popis okna label vedle inputu */
+.form-section label {
+    margin-right: 10px;
+}
+/* input okno */
+.form-section input[type="number"]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+}
+/* odesílací submit tlačítko */
+.form-section input[type="submit"]{
+background-color: #e50914;
+color: #e5e5e5;
+border: none;
+padding: 5px 10px;
+font-size: 18px;
+margin-bottom: 20px;
+}
+.form-section p {
+    padding: 20px;
+}
